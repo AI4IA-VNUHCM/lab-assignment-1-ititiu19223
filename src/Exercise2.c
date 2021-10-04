@@ -28,6 +28,6 @@ int main(int argc, char *argv[])
 	}
 
 	printf("Max: %d", max);
-	printf("Min: %d", min);
+	printf("\nMin: %d", min);
 	return 0;
 }
