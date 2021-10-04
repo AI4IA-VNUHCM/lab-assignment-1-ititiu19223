@@ -28,13 +28,17 @@ int main(int argc, char *argv[])
 			testcase[i] = atoi(argv[i + 1]);
 	}
 	//Your codes here
-	int max = 0, min = 1e6;
+	int max = 0, min = 10000;
 	for (int i = 0; i < argc; i++)
 	{
 		if (max < testcase[i])
+		{
 			max = testcase[i];
+		}
 		if (min > testcase[i])
+		{
 			min = testcase[i];
+		}
 	}
 
 	printf("Max: %d", max);
